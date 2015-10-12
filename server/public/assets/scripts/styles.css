@@ -1,0 +1,156 @@
+@import url(https://fonts.googleapis.com/css?family=Passion+One);
+
+form {
+    margin: 45px auto;
+    padding: 0  0   0   0;
+    border: 8px solid black;
+    border-radius: 12px;
+    font-family: 'Passion One', Helvetica;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    width: 490px;
+    text-align: left;
+}
+
+fieldset {
+    /*border:none;*/
+    border: 6px solid black;
+    border-radius: 12px;
+    margin: 20px;
+}
+label{
+    font-family: 'Passion One', cursive, Helvetica;
+    font-size: 26px;
+    font-weight: bold;
+    margin:0 0 20px 25px;
+}
+
+h4{
+    text-align: center;
+    background-color: #C2B59B;
+    color: white;
+    padding: 11px 30px;
+    letter-spacing: 4px;
+    font-size: 39px;
+    font-weight: normal;
+    margin: 0 0 5px 0;
+}
+h1{
+    text-align: center;
+    font-size: 58px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 5px;
+    margin: 5px auto 0;
+}
+h2{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 2px;
+    margin: 0 auto 10px;
+
+}
+
+.eventTextBox{
+    width:90%;
+    height:160px;
+    display: block;
+    margin:35px auto 0;
+    vertical-align: text-top;
+}
+.timeTextBox{
+    width:90%;
+    display: block;
+    margin:20px auto 0;
+    height:25px;
+    padding: 15px 0 15px 10px;
+    letter-spacing: 8px;
+
+}
+textarea {
+    margin: 1px 0 0 25px;
+    font-size: 20px;
+}
+
+.newTask{
+    font-font-family: 'Passion One',helvetica;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 10px 55px;
+    border:1px;
+    background-color:black;
+    color:white;
+    letter-spacing: 2px;
+    display: block;
+    margin: 25px auto 30px;
+}
+.delete{
+    font-font-family: 'Passion One', helvetica;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 35px;
+    border:1px;
+    background-color:#C2AD99;
+    color:white;
+    letter-spacing: 3px;
+    display: block;
+    margin: 15px auto;
+}
+
+.bar{
+    padding: 15px 30px;
+    background-color: #4F9B8B;
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 18px;
+    /*width: 100%;*/
+    /*display:block;*/
+    /*margin: 0 auto;*/
+}
+
+.bar:nth-of-type(odd){
+    background-color: #A8DAC7;
+}
+
+
+input{
+    font-family: 'Passion One', Helvetica;
+    font-size: 29px;
+    letter-spacing: 4px;
+}
+
+
+input .newTask{
+    font-family: 'Passion One', Helvetica;
+    font-size: 39px;
+    letter-spacing: 4px;
+}
+
+
+.timeColor{
+    padding-top: 10px;
+    font-size: 22px;
+    font-style: italic;
+
+}
+
+input[type="checkbox"]{
+     border: 2px;
+     width: 30px;
+     height: 30px;
+     float: right;
+    margin: -29px -10px 0 0;
+
+
+}
+
+
+
+.done-true{
+    text-decoration:line-through;
+
+
+}
